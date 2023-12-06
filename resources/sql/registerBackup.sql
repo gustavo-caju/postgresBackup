@@ -1,0 +1,1 @@
+INSERT INTO backups (base,host,port,path,backupDate) VALUES ('_base', '_host', '_port', '_path', CURRENT_TIMESTAMP);

@@ -1,0 +1,20 @@
+database:
+  host: '127.0.0.1'
+  port: '5433'
+  user: 'postgres'
+  pass: 'pass123'
+
+zipPass: 'zip123'
+
+#notify:
+#  type: 'slack'
+#  token: 'xoxb-4115912468531-6124142310915-ZsrtafrdKF6ZaAkGp2LgLnJT'
+#  channel: 'C046Y24PK2M'
+
+process: 4
+retention: 5
+environment: Local
+zabbix:
+  server: "10.192.0.118"
+  port: "10051"
+  host: "backupTeste"
