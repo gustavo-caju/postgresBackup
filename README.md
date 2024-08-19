@@ -39,7 +39,7 @@ insert into bases values ('base', 'host', 'port', 'postgres', pgp_sym_encrypt('P
  -v /media/docker/backups/log:/backups/log/ \
  -v /media/docker/backups/ENVIRONMENT.yaml:/backups/conf.yaml:ro \
  --memory 4g \
- registry.zeroglosa.com.br/backup:1.0.0
+ repositorio.local.br/backup:1.0.0
  ```
 
  configure crontab:
